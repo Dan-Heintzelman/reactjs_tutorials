@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import styles from './styles/main.css';
+import styles from './styles/main.styl';
 
 
 import Router from './router';

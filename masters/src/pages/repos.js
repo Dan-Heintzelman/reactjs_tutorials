@@ -17,7 +17,7 @@ import React, {Component} from 'react';
 
 const Repos = (props) => {
   return (
-        <div>This is your Repos page!</div>
+        <h2>This is your Repos page!</h2>
   );
 }
 
