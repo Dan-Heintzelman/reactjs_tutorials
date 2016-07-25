@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-
 import styles from './styles/main.styl';
-
-
 import Router from './router';
+import app from 'ampersand-app';
 
-
+window.app = app;
 
 
 // class App extends Component {
@@ -27,12 +25,12 @@ import Router from './router';
 // ReactDOM.render(<App greeting="Hello Frontend Masters!" />, document.body )
 // // document.write('Hello Frontend Masters!')
 
-window.app = {
+app.extend({
   init() {
     this.router = new Router()
     this.router.history.start()
 
   }
-}
+})
 
-window.app.init()
+app.init();

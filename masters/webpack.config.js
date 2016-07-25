@@ -4,5 +4,5 @@ module.exports = getConfig({
   in: 'src/app.js',
   out: 'public',
   clearBeforeBuild: true,
-	hostname: "Dans-MacBook-Pro.local"
+	// hostname: "Dans-MacBook-Pro.local"
 })
