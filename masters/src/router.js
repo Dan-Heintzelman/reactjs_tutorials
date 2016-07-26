@@ -15,7 +15,7 @@ export default Router.extend({
     if (opts.layout) {
       page = (
 
-        <Layout name="Theron">
+        <Layout>
           {page}
         </Layout>
       );
